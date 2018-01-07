@@ -1,0 +1,3 @@
+I extracted the path to the file.How to locate the string after the last '\'
+
+$R=(ls c:\ -recurse -force).pspath
