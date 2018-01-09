@@ -1,3 +1,4 @@
 I extracted the path to the file.How to locate the string after the last '\'
 
-$R=(ls c:\ -recurse -force).pspath
+(ls c:\ -recur).pspath > c:\val.txt
+gc c:\val.txt | sls -pattern "$"
